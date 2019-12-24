@@ -23,8 +23,18 @@ Things you may want to cover:
 
 * ...
 
-## deviseの不具合の解決にはこのページを使った
+## deviseの不具合の解決にはこのページを使った  
 https://qiita.com/ryouzi/items/9c5324ba567109ab2a22
 
 ## deviseのインストール参考サイト
-https://techblog.gmo-ap.jp/2019/02/07/%E6%96%B0%E3%81%97%E3%81%84rails%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%82%92%E4%BD%9C%E6%88%90%E3%81%97%E3%81%A6devise%E3%82%92%E5%AE%9F%E8%A3%85%E3%81%99%E3%82%8B/
+https://techblog.gmo-ap.jp/2019/02/07/%E6%96%B0%E3%81%97%E3%81%84rails%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%82%92%E4%BD%9C%E6%88%90%E3%81%97%E3%81%A6devise%E3%82%92%E5%AE%9F%E8%A3%85%E3%81%99%E3%82%8B/  
+
+## rails復習に利用したサイト  
+https://www.takapy.work/entry/2017/07/27/005649  
+## DB周り復習
+https://qiita.com/Hal_mai/items/aed97a6aba2293450a74  
+https://qiita.com/tsuchinoko_run/items/f3926caaec461cfa1ca3  
+## jsとかcssの読み込み  
+https://qiita.com/Hijiri-K/items/1a3f7137cf3186580447  
+erbの中のものは読まれずにassetに指定したjsだけが指定されたページで読まれた  
+
