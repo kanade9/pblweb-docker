@@ -1,3 +1,4 @@
+/*
 document.onkeydown = typeGame;  //キー押下時に関数typeGame()を呼び出す
 //文字を格納する配列
 var moji = ["a", "b", "c", "d", "e", "f", "g", "h", "i",
@@ -13,7 +14,7 @@ var rnd = [];
 var mondai = "";
 var cnt = 0;
 var typStart, typEnd;
-let q_num = 2;
+let q_num = 5;
 let x = 100;
 let cntmiss = 0;
 let loseflag = 0;
@@ -72,7 +73,7 @@ function typeGame(evt) {
             if (sec >= 30) {
                 document.getElementById('gazo').innerHTML = '<img src="good.png" width="540" height="540" alt="good">';
             } else {
-                document.getElementById('gazo').innerHTML = '<img src="excellent.jpg" width="540" height="270" alt="excellent">';
+                document.getElementById('gazo').innerHTML = '<img src="../images/excellent.jpg" width="540" height="270" alt="excellent">';
             }
             //1000で割った「余り(%で取得できる）」でミリ秒を取得
             var msec = keika % 1000;
@@ -105,3 +106,4 @@ function restart() {
     //score入れたなんかできた。
     document.getElementById("waku").innerHTML = "リロードしてもう一度" + score;
 }
+*/
