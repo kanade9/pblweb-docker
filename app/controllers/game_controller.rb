@@ -15,7 +15,9 @@ class GameController < ApplicationController
 
   def save
     user=User.find_by(email:current_user.email)
-    user.score=params[:score]
-    user.save
+    if user.score < params[:score]
+      user.score = params[:score]
+      user.save
+    end
   end
 end
