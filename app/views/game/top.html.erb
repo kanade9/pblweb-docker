@@ -106,10 +106,10 @@
                 //問題終了を告げる文字列を作成
                 //問題枠にゲーム終了を表示
                 document.getElementById("waku").innerHTML = "GAME終了　時間：" + sec + "秒" + Math.round(msec / 10) + "スコア" + score;
-                alert(score);
+                // alert(score);
                 $.post("../like", { score:score});
-
-                restart()
+                location.href="../showrank/index";
+                // restart()
             }
         } else {
             if (!loseflag) {

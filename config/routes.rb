@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'showrank/index'
+
   get 'game/top'
   devise_for :users
   get 'welcome/index'
