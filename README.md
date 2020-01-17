@@ -38,3 +38,9 @@ https://qiita.com/tsuchinoko_run/items/f3926caaec461cfa1ca3
 https://qiita.com/Hijiri-K/items/1a3f7137cf3186580447  
 erbの中のものは読まれずにassetに指定したjsだけが指定されたページで読まれた  
 
+## dockerでビルドするときのメモ
+https://qiita.com/azul915/items/5b7063cbc80192343fc0#%E4%BD%95%E3%82%82%E3%81%AA%E3%81%84%E7%8A%B6%E6%85%8B%E3%81%8B%E3%82%89rails%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%81%A8mysql%E3%81%AE%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A%E3%82%92%E7%AB%8B%E3%81%A6%E3%81%A6%E3%81%8F%E3%82%8C%E3%82%8B%E3%82%B7%E3%82%A7%E3%83%AB2019-02-04%E8%BF%BD%E8%A8%98  
+このサイトでとりあえずrailsとMySQLを構築する  
+その後Gemfileに新たに入れたGemを追記  
+この後docker-compose run web bundle installしてgemをインストールする  
+docker-compose buildその後走らせる
