@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "app_name",
+=======
+  "name": "untitled6",
+>>>>>>> upstream/master
   "private": true,
   "dependencies": {}
 }

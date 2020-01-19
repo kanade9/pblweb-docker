@@ -1,0 +1,13 @@
+<h1>Welcome#index</h1>
+<% if user_signed_in? %>
+  <h2>ようこそ<%= @user.username %>さん</h2>
+  <%= link_to 'ゲームを始める','/game/top' %>
+  <%= link_to 'プロフィール変更', edit_user_registration_path %>
+  <%= link_to 'ログアウト', destroy_user_session_path, method: :delete %>
+<% else %>
+  <h2>ユーザー登録をするとゲームが遊べます</h2>
+  <%= link_to 'ユーザー登録', new_user_registration_path %>
+  <%= link_to 'ログイン', new_user_session_path %>
+<% end %>
+
+<p>Find me in app/views/welcome/index.html.erb</p>

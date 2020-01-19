@@ -1,0 +1,56 @@
+html{
+    background-color: #add8e6;
+    font-family: 游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN","Hiragino Mincho Pro",HGS明朝E,メイリオ,Meiryo,serif;
+}
+header{
+    text-align: center;
+}
+#inside{
+    margin-right: auto;
+    margin-left : auto;
+    background-color: #CCFFCC;
+}
+.box1{
+    float: left;
+    width: 33%;
+    text-align: center;
+    border: solid 1px #000;/*線*/
+
+}
+.boxContainer1{
+    overlow: hidden;
+}
+.boxContainer1:before,
+.boxContainer1:after{
+    content:"";
+    display:table;
+}
+.boxContainer1:after{
+    clear: both;
+}
+.boxContainer1{
+    zoom:1;
+}
+
+.box2{
+    float: left;
+    width: 33%;
+    text-align: center;
+    border: solid 1px #000;/*線*/
+
+}
+
+boxContainer2{
+    overlow: hidden;
+}
+.boxContainer2:before,
+.boxContainer2:after{
+    content:"";
+    display:table;
+}
+.boxContainer2:after{
+    clear: both;
+}
+.boxContainer2{
+    zoom:1;
+}
