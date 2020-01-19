@@ -5,13 +5,10 @@ ruby '2.3.7'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.4'
-<<<<<<< HEAD
 # Use mysql as the database for Active Record
 gem 'mysql2', '>= 0.4.4', '< 0.6.0'
-=======
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
->>>>>>> upstream/master
+# gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
@@ -30,11 +27,8 @@ gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
-<<<<<<< HEAD
 # gem 'bcrypt', '~> 3.1.13'
-=======
-# gem 'bcrypt', '~> 3.1.7'
->>>>>>> upstream/master
+
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
@@ -72,9 +66,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # add login/logout
 gem 'devise'
-<<<<<<< HEAD
-=======
-
->>>>>>> upstream/master
 # add jquery
 gem "jquery-rails"
